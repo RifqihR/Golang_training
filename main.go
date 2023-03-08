@@ -33,12 +33,16 @@ func main() {
 	}
 	fmt.Println(string(out))
 
-	checking := "Я"
-	ck := []rune(checking)
+	//unicode of character
+	rsh := "Я"
+	ck := []rune(rsh)
 	fmt.Printf("%U\n", ck[0])
-	//for _, runeValue := range checking {
-	//	fmt.Printf("%T\n", runeValue)
-	//}
+	/*
+		for _, runeValue := range checking {
+		fmt.Printf("%T\n", runeValue)
+		}
+	*/
+
 	fmt.Printf("%f\n", k)
 	fmt.Printf("%E\n", k)
 }
