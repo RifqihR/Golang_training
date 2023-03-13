@@ -46,3 +46,5 @@ func main() {
 	fmt.Printf("%f\n", k)
 	fmt.Printf("%E\n", k)
 }
+
+//rifqi hanif ramadhani 1955617840-1148
